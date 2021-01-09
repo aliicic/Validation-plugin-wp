@@ -1,0 +1,69 @@
+
+
+#employment_wrap{
+
+    padding: 5px;
+    border: 3px solid white;
+    font-size:11pt;
+    width: 80%!important;
+
+}
+#employment_form{
+
+    text-align: center;
+}
+.part1 , .part2 {
+
+    width: 45%;
+    display: inline-block;
+    marign:10px 0px 10px 0px;
+
+}
+
+@media (max-width: 730px) {
+    .part1 , .part2 {
+
+        width: 100%;
+        display: inline-block;
+
+    }
+
+
+    #employment_wrap input[type="submit"]{
+        background: #f3691f;
+        color: white;
+        border-radius: 4px;
+        padding: 10px;
+        width: 100%;
+
+
+    }
+
+}
+.part1 p , .part2 p{
+text-align: right;
+    font-size:16px;
+    padding: 5px 0px 5px 0 ;
+    margin-bottom: 5px;
+}
+#employment_wrap input[type="submit"]{
+    background: #f3691f;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 10px;
+  margin-top: 20px;
+
+}
+#employment_wrap input[type="text"]{
+   height: 40px;
+
+}
+
+td.entry-view-field-name {
+    font-weight: 700;
+    background-color: #EAF2FA!important;
+    border-bottom: 1px solid #FFF;
+    line-height: 1.5;
+    padding: 7px;
+}
